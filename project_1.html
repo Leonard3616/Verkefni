@@ -57,7 +57,50 @@
 								<p>I started by checking out templates in <a href="http://html5up.net">HTML5 UP</a> and decided to go for the one call <a href="https://html5up.net/spectral">Spectral.</a> 
                                 <p/>
                                 <p>To start editing this template I used <a href="https://brackets.io/">Brackets</a> there were other options, but I desided to use it because, as shown in the video tutorials, it was possible to have a live preview of the website, which came in really handy in the process.</p>
+                                <h3>Upload to Github</h3>
+                                <p>To uploaded the website to Github, it was necessary to crate a new repository on Github. To upload to Github, we will use the Git program and opening our template file with Git bash.
+                                </p>
+                                <pre>
+                                 <code>"echo "#Verkefni" >> 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/Leonard3616/Verkefni.git
+git push -u origin main
 
+                                 </code>
+                                </pre>
+                                <p>While using git to upload it using git bash we encounter an error:<p/>
+                                    <p><img src="images/Error_1.png">
+                                </p>
+                                <p>After some research online, I found the solution, which involved entering the command "git remote remove origin" in Git bash.<p/>
+                                <p>
+                                <img src="images/solution.png"><p/>
+                                <p>    
+                                After that the problem was solved and it was possible to upload the template to Github.</p>
+                                <p>
+                                <img src="images/Github1.png">
+                                <p/>
+                                <p>
+                                Now we were able to get the link from Github for our website.
+                                <p/>
+                                <p>
+                                <img src="images/website.png">
+                                </p>
+                                <h3>Editing the template</h3>
+                                <p>At the start, I had to make several changes regarding the appearance and my own text in the template. For example, the changes made in the menu bar, where I had to add new URLs for every option to ensure proper functionality for each option in the menu bar.</p>
+                                <p><img src="images/Codigos.png"></p>
+                                <p>Every other detail, such as adding pictures or making changes to the appearance of the template, became much more manageable with the assistance of <a href="https://www.w3schools.com/"><span class="label">w3schools</span></a> as the setting of URLs within the text with the use of codes as:<p/>
+                                <p><code>&lt;a href="url"&gt;Name of the url&lt;/a&gt;: to set a new url.</code><p/>
+                                <p><code>&lt;img src="location"&gt;: to set a new picture.</code><p/>
+                                <p>Then in the footer I had to change the text and als to every link will take to my personal social medias:</p>
+                                <p><img src="images/footer.png"></p>
+                                <h3>CV edition</h3>
+                                <p>In this section I already had a CV that I used to apply for some jobs in the last year so I had to just updated a bit.</p>
+                                <h3>Final steps</h3>
+                                <p>After all the new changes we just need to upload it in our link on Github. </p>
+                                
 							</div>
 						</section>
 					</article>
